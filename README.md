@@ -81,6 +81,9 @@ Lub zaproponuj coś od siebie! Pomysłowość jest zawsze w cenie!
 ## Mile widziane
 - TypeScript
 
+## Przesłanie gotowego rozwiązania
+- Najlepszym rozwiązaniem będzie stworzenie publicznego repozytorium oraz przesłanie nam do niego liknu.
+- Aplikacja nie musi być hostowana lecz jeśli chcesz to zrobić, to nie mamy nic przeciwko.
 
 ## Dane do zadania (poziom podstawowy oraz rozszerzony)
 
