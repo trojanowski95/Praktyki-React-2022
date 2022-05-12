@@ -15,8 +15,8 @@ Podstawowa wersja aplikacji zakłada stworzenie listy postaci bazującej na stat
 
 ### Wymagania:
 - aplikacja składa się z dwóch podstawowych widoków:
-  - **Lista postaci** - lista bazująca na udostępnionych, statycznych danych dostępna pod adresem `/charakters`
-  - **Szczegóły widok postaci** - dostępny pod adresem `/charakter/:id` np: `localhost:3000/charakter/5`
+  - **Lista postaci** - lista bazująca na udostępnionych, statycznych danych dostępna pod adresem `/characters`
+  - **Szczegóły widok postaci** - dostępny pod adresem `/character/:id` np: `localhost:3000/character/5`
   
 - Szczegółowy widok postaci będzie dostępny po kliknięciu w podlinkowany element na liście postaci np. nazwa postaci, avatar lub dowolny przycisk
 
@@ -28,14 +28,14 @@ Rozszerzona wersja aplikacji uwzględnia aplikację z wersji podstawowej wzbogac
 
 ### Wymagania:
 - Wszystkie funkcjonalności z `wersji podstawowej`
-- Na liście postaci `/charakters` przy każdym elemencie listy powinien znaleźć się przycisk umożliwiający dodanie postaci do listy ulubionych 
+- Na liście postaci `/characters` przy każdym elemencie listy powinien znaleźć się przycisk umożliwiający dodanie postaci do listy ulubionych 
   - Po dodaniu postaci do ulubionych opcja ta zostaje zablokowana do momentu usunięcia postaci z listy ulubionych
   
-- Dodatkowy widok **Lista ulubionych postaci** - dostępny pod adresem `/favourite-charakters`.
-  - Widok ten może być bliźniaczo podobny do listy postaci `/charakters`
-  - Na liście ulubionych postaci `/favourite-charakters` przy każdym elemencie listy powinien znaleźć się przycisk umożliwiający usunięcie postaci z ulubionych
+- Dodatkowy widok **Lista ulubionych postaci** - dostępny pod adresem `/favourite-characters`.
+  - Widok ten może być bliźniaczo podobny do listy postaci `/characters`
+  - Na liście ulubionych postaci `/favourite-characters` przy każdym elemencie listy powinien znaleźć się przycisk umożliwiający usunięcie postaci z ulubionych
 
-- W aplikacji powinna znaleźć się nawigacja umożliwiająca przechodzenie pomiędzy listą postaci `/charakters`, a listą ulubionych postaci `/favourite-charakters`
+- W aplikacji powinna znaleźć się nawigacja umożliwiająca przechodzenie pomiędzy listą postaci `/characters`, a listą ulubionych postaci `/favourite-characters`
 
 Funkcjonalność przechowywania i zarządzania listą ulubionych postaci może zostać zrealizowana w dowolny sposób (np. Context Api, Redux, State, Local Storage).
 Dopuszczalne jest resetowanie listy ulubionych postaci po odświeżeniu aplikacji. 
