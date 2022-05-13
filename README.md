@@ -15,7 +15,7 @@ Podstawowa wersja aplikacji zakłada stworzenie listy postaci bazującej na stat
 
 ### Wymagania:
 - aplikacja składa się z dwóch podstawowych widoków:
-  - **Lista postaci** - lista bazująca na udostępnionych, statycznych danych dostępna pod adresem `/characters`
+  - **Lista postaci (główny widok aplikacji)** - lista bazująca na udostępnionych, statycznych danych dostępna pod adresem `/characters`
   - **Szczegóły widok postaci** - dostępny pod adresem `/character/:id` np: `localhost:3000/character/5`
   
 - Szczegółowy widok postaci będzie dostępny po kliknięciu w podlinkowany element na liście postaci np. nazwa postaci, avatar lub dowolny przycisk
